@@ -8,10 +8,10 @@ using System.Configuration;
 
 namespace GISApplication
 {
-    public class PgSqlConnection
+    public class PgSqlConnectiona
     {
         private static NpgsqlConnection sqlCon = new NpgsqlConnection(ConfigurationManager.ConnectionStrings["PGSQL"].ConnectionString);
-        public PgSqlConnection() { }
+        public PgSqlConnectiona() { }
         public static void GetMeSomething()
         {
             sqlCon.Open();

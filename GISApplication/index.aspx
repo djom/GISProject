@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="GISApplication.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Index.aspx.cs" Inherits="GISApplication.index" %>
 
 <!DOCTYPE html>
 
@@ -9,7 +9,7 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="MainBody" runat="server">
         <div>
             Dušan
         </div>
